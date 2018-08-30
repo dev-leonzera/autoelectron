@@ -51,9 +51,8 @@ mv index.html pages/
 #Move o arquivo main para a pasta do app
 mv main.js app/
 #Abre o Visual Studio Code para edição na pasta do projeto
-
+echo 'Passos restantes:'
+echo 'Editar o package.json,adicionando "app/ antes do main.js" na seção "main"'
+echo 'Editar o main.js,adicionando "pages/" antes do index.html na linha do mainWindow.loadFile()'
 $editor .
 
-#Passos restantes:
-#1 - Editar o package.json,adicionando "app/ antes do main.js" na seção "main"
-#2 - Editar o main.js,adicionando "pages/" antes do index.html na linha do mainWindow.loadFile()
