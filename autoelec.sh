@@ -25,13 +25,13 @@ mkdir img
 #Cria o arquivo de estilo vazio
 touch style.css
 #Cria o arquivo do controlador vazio
-touch controller.js
+touch MainController.js
 #Move o arquivo "style.css" para a pasta css
 mv style.css css/
 #Move o arquivo do controlador para a pasta app
-mv controller.js app/
+mv MainController.js app/
 #Clona o repositório com a versão básica do Electron
-git clone https://github.com/leonandrade/electron-quick-start
+git clone https://github.com/electron/electron-quick-start
 #Move todo o conteúdo da pasta do repositório para a pasta acima
 mv electron-quick-start/* ./
 #Apaga a pasta do repositório
